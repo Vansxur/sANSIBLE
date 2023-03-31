@@ -12,4 +12,4 @@ fi
 ansible-playbook -i inventory.yaml playbook.yaml --timeout 60 --extra-vars "audit_folder=$Audit_Name"
 
 # Start craking password session
-./modules/password/cracking_password.sh $Audit_Name
+cracking_password.sh $Audit_Name
