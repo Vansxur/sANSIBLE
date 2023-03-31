@@ -1,0 +1,1934 @@
+{
+    "busctl": [
+        "shell",
+        "sudo"
+    ],
+    "c89": [
+        "file-read",
+        "file-write",
+        "shell",
+        "sudo"
+    ],
+    "setfacl": [
+        "suid",
+        "sudo"
+    ],
+    "easy_install": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "sudo"
+    ],
+    "xmodmap": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ash": [
+        "shell",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "socket": [
+        "reverse-shell",
+        "bind-shell"
+    ],
+    "nmap": [
+        "shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "sudo",
+        "limited-suid",
+        "suid"
+    ],
+    "find": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "systemd-resolve": [
+        "sudo"
+    ],
+    "pip": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "sudo"
+    ],
+    "iftop": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "jq": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "red": [
+        "file-write",
+        "file-read",
+        "sudo"
+    ],
+    "openssl": [
+        "reverse-shell"
+    ],
+    "ex": [
+        "shell",
+        "file-write",
+        "file-read",
+        "sudo"
+    ],
+    "cpan": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "sudo"
+    ],
+    "ghc": [
+        "shell",
+        "sudo"
+    ],
+    "wish": [
+        "shell",
+        "non-interactive-reverse-shell",
+        "sudo"
+    ],
+    "lp": [
+        "file-upload"
+    ],
+    "wall": [
+        "sudo"
+    ],
+    "chown": [
+        "suid",
+        "sudo"
+    ],
+    "cut": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "octave": [
+        "shell",
+        "file-write",
+        "file-read",
+        "sudo",
+        "limited-suid"
+    ],
+    "od": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "setlock": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "ss": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "pdftex": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "aoss": [
+        "shell",
+        "sudo"
+    ],
+    "gem": [
+        "shell",
+        "sudo"
+    ],
+    "at": [
+        "shell",
+        "command",
+        "sudo"
+    ],
+    "unzip": [
+        "sudo",
+        "suid"
+    ],
+    "ispell": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "cowsay": [
+        "shell",
+        "sudo"
+    ],
+    "timedatectl": [
+        "shell",
+        "sudo"
+    ],
+    "cancel": [
+        "file-upload"
+    ],
+    "tac": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "eqn": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "opkg": [
+        "sudo"
+    ],
+    "chroot": [
+        "suid",
+        "sudo"
+    ],
+    "tasksh": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "sqlite3": [
+        "shell",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "gcore": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "strace": [
+        "file-write",
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "socat": [
+        "shell",
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "file-read",
+        "file-write",
+        "sudo",
+        "limited-suid"
+    ],
+    "hexdump": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "luatex": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "telnet": [
+        "shell",
+        "reverse-shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "ptx": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "xelatex": [
+        "shell",
+        "file-read",
+        "sudo",
+        "limited-suid"
+    ],
+    "rvim": [
+        "shell",
+        "reverse-shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo",
+        "capabilities",
+        "limited-suid"
+    ],
+    "check_statusfile": [
+        "file-read",
+        "sudo"
+    ],
+    "tftp": [
+        "file-upload",
+        "file-download",
+        "suid",
+        "sudo"
+    ],
+    "scanmem": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "make": [
+        "shell",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "torify": [
+        "shell",
+        "sudo"
+    ],
+    "rpmdb": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "byebug": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "scp": [
+        "shell",
+        "file-upload",
+        "file-download",
+        "sudo",
+        "limited-suid"
+    ],
+    "basenc": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "pax": [
+        "file-read"
+    ],
+    "uuencode": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "run-parts": [
+        "shell",
+        "sudo",
+        "suid"
+    ],
+    "hd": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "nice": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "ldconfig": [
+        "sudo",
+        "limited-suid"
+    ],
+    "loginctl": [
+        "shell",
+        "sudo"
+    ],
+    "rake": [
+        "file-read",
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "ltrace": [
+        "file-read",
+        "file-write",
+        "shell",
+        "sudo"
+    ],
+    "psql": [
+        "shell",
+        "sudo"
+    ],
+    "eb": [
+        "shell",
+        "sudo"
+    ],
+    "valgrind": [
+        "shell",
+        "sudo"
+    ],
+    "espeak": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "logsave": [
+        "shell",
+        "sudo",
+        "suid"
+    ],
+    "apt-get": [
+        "shell",
+        "sudo"
+    ],
+    "dialog": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "nc": [
+        "reverse-shell",
+        "bind-shell",
+        "file-upload",
+        "file-download",
+        "sudo",
+        "limited-suid"
+    ],
+    "crontab": [
+        "command",
+        "sudo"
+    ],
+    "aria2c": [
+        "command",
+        "file-download",
+        "sudo",
+        "limited-suid"
+    ],
+    "install": [
+        "suid",
+        "sudo"
+    ],
+    "more": [
+        "shell",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "debugfs": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "uniq": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "msgfilter": [
+        "shell",
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "aws": [
+        "shell",
+        "sudo"
+    ],
+    "dpkg": [
+        "shell",
+        "sudo"
+    ],
+    "nasm": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "tmate": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "tshark": [
+        "shell"
+    ],
+    "gawk": [
+        "shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "paste": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "irb": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "sudo"
+    ],
+    "msgcat": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "iconv": [
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "gcc": [
+        "file-read",
+        "file-write",
+        "shell",
+        "sudo"
+    ],
+    "rpm": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "lua": [
+        "shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "rpmverify": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "fmt": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "rsync": [
+        "shell",
+        "sudo",
+        "suid"
+    ],
+    "restic": [
+        "file-upload",
+        "sudo",
+        "suid"
+    ],
+    "check_ssl_cert": [
+        "command",
+        "sudo"
+    ],
+    "ginsh": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "pico": [
+        "shell",
+        "file-write",
+        "file-read",
+        "limited-suid",
+        "sudo"
+    ],
+    "check_memory": [
+        "file-read",
+        "sudo"
+    ],
+    "man": [
+        "shell",
+        "file-read",
+        "sudo"
+    ],
+    "nohup": [
+        "shell",
+        "command",
+        "suid",
+        "sudo"
+    ],
+    "tbl": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "nawk": [
+        "shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "virsh": [
+        "sudo",
+        "file-write"
+    ],
+    "zathura": [
+        "shell",
+        "sudo"
+    ],
+    "tar": [
+        "shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "sudo",
+        "limited-suid"
+    ],
+    "nm": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "check_cups": [
+        "file-read",
+        "sudo"
+    ],
+    "kubectl": [
+        "file-upload",
+        "suid",
+        "sudo"
+    ],
+    "dmesg": [
+        "file-read",
+        "shell",
+        "sudo"
+    ],
+    "column": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "cat": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "unexpand": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "choom": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "arj": [
+        "file-read",
+        "file-write",
+        "sudo",
+        "suid"
+    ],
+    "systemctl": [
+        "suid",
+        "sudo"
+    ],
+    "mv": [
+        "suid",
+        "sudo"
+    ],
+    "crash": [
+        "shell",
+        "command",
+        "sudo"
+    ],
+    "pandoc": [
+        "file-read",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "ksshell": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ssh-keygen": [
+        "library-load",
+        "sudo",
+        "suid"
+    ],
+    "ld.so": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "msguniq": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "genisoimage": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "cobc": [
+        "shell",
+        "sudo"
+    ],
+    "gtester": [
+        "file-write",
+        "shell",
+        "sudo",
+        "suid"
+    ],
+    "xz": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "lualatex": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "jrunscript": [
+        "shell",
+        "reverse-shell",
+        "file-download",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "arp": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "csvtool": [
+        "file-read",
+        "file-write",
+        "suid",
+        "shell",
+        "sudo"
+    ],
+    "joe": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "zip": [
+        "file-read",
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "fping": [
+        "file-read",
+        "sudo"
+    ],
+    "ar": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "xdotool": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "shuf": [
+        "file-read",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "perlbug": [
+        "shell",
+        "sudo"
+    ],
+    "bundler": [
+        "shell",
+        "sudo"
+    ],
+    "vigr": [
+        "suid",
+        "sudo"
+    ],
+    "emacs": [
+        "shell",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "look": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "base58": [
+        "file-read",
+        "sudo"
+    ],
+    "bridge": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "mysql": [
+        "shell",
+        "sudo",
+        "limited-suid",
+        "library-load"
+    ],
+    "exiftool": [
+        "file-read",
+        "file-write",
+        "sudo"
+    ],
+    "pidstat": [
+        "command",
+        "sudo",
+        "suid"
+    ],
+    "file": [
+        "file-read"
+    ],
+    "gdb": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo",
+        "capabilities"
+    ],
+    "wc": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "tail": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "nl": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "csh": [
+        "shell",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "dosbox": [
+        "file-read",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "efax": [
+        "suid",
+        "sudo"
+    ],
+    "msgmerge": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "bzip2": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "cpio": [
+        "shell",
+        "file-read",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "ip": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "basez": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "dnf": [
+        "sudo"
+    ],
+    "pkexec": [
+        "sudo"
+    ],
+    "latexmk": [
+        "shell",
+        "file-read",
+        "sudo"
+    ],
+    "date": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ionice": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "check_raid": [
+        "file-read",
+        "sudo"
+    ],
+    "base32": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "awk": [
+        "shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "nsenter": [
+        "shell",
+        "sudo"
+    ],
+    "zypper": [
+        "shell",
+        "sudo"
+    ],
+    "cupsfilter": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "run-mailcap": [
+        "shell",
+        "file-read",
+        "file-write"
+    ],
+    "docker": [
+        "shell",
+        "file-write",
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "wireshark": [
+        "sudo"
+    ],
+    "multitime": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "time": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "psftp": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "batcat": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "slsh": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "curl": [
+        "file-upload",
+        "file-download",
+        "file-read",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "nft": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "env": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "knife": [
+        "shell",
+        "sudo"
+    ],
+    "mtr": [
+        "file-read",
+        "sudo"
+    ],
+    "latex": [
+        "shell",
+        "file-read",
+        "sudo",
+        "limited-suid"
+    ],
+    "vipw": [
+        "suid",
+        "sudo"
+    ],
+    "journalctl": [
+        "shell",
+        "sudo"
+    ],
+    "task": [
+        "shell",
+        "sudo"
+    ],
+    "comm": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "apt": [
+        "shell",
+        "sudo"
+    ],
+    "csplit": [
+        "file-read",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "uudecode": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "smbclient": [
+        "shell",
+        "file-upload",
+        "file-download",
+        "sudo"
+    ],
+    "lwp-download": [
+        "file-download",
+        "sudo",
+        "file-read",
+        "file-write"
+    ],
+    "perf": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "puppet": [
+        "shell",
+        "file-write",
+        "file-read",
+        "sudo"
+    ],
+    "tex": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "taskset": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "rview": [
+        "shell",
+        "reverse-shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo",
+        "capabilities",
+        "limited-suid"
+    ],
+    "yarn": [
+        "shell",
+        "sudo"
+    ],
+    "rlwrap": [
+        "shell",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "readelf": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "tclsh": [
+        "shell",
+        "non-interactive-reverse-shell",
+        "suid",
+        "sudo"
+    ],
+    "script": [
+        "shell",
+        "sudo",
+        "file-write"
+    ],
+    "dd": [
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "base64": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ansible-playbook": [
+        "shell",
+        "sudo"
+    ],
+    "split": [
+        "file-read",
+        "file-write",
+        "command",
+        "shell",
+        "sudo"
+    ],
+    "tic": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "7z": [
+        "file-read",
+        "sudo"
+    ],
+    "ksh": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "bash": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo"
+    ],
+    "watch": [
+        "shell",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "head": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "expect": [
+        "file-read",
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "top": [
+        "shell",
+        "sudo"
+    ],
+    "pry": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "sort": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "xpad": [
+        "file-read",
+        "sudo"
+    ],
+    "troff": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "strings": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "cabal": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "sg": [
+        "shell",
+        "sudo"
+    ],
+    "whois": [
+        "file-upload",
+        "file-download"
+    ],
+    "sash": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "rpmquery": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "nroff": [
+        "file-read",
+        "shell",
+        "sudo"
+    ],
+    "sed": [
+        "shell",
+        "command",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "grc": [
+        "shell",
+        "sudo"
+    ],
+    "ascii-xfr": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "stdbuf": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "tcpdump": [
+        "command",
+        "sudo"
+    ],
+    "snap": [
+        "sudo"
+    ],
+    "soelim": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "genie": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "tmux": [
+        "file-read",
+        "shell",
+        "sudo"
+    ],
+    "cdist": [
+        "shell",
+        "sudo"
+    ],
+    "ab": [
+        "file-upload",
+        "file-download",
+        "suid",
+        "sudo"
+    ],
+    "capsh": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "ln": [
+        "sudo"
+    ],
+    "pic": [
+        "file-read",
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "pkg": [
+        "sudo"
+    ],
+    "check_by_ssh": [
+        "shell",
+        "sudo"
+    ],
+    "rtorrent": [
+        "shell",
+        "suid"
+    ],
+    "screen": [
+        "shell",
+        "file-write",
+        "sudo"
+    ],
+    "rlogin": [
+        "file-upload"
+    ],
+    "wget": [
+        "shell",
+        "file-upload",
+        "file-read",
+        "file-write",
+        "file-download",
+        "suid",
+        "sudo"
+    ],
+    "composer": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "cp": [
+        "file-read",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "pdflatex": [
+        "shell",
+        "file-read",
+        "sudo",
+        "limited-suid"
+    ],
+    "gimp": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo"
+    ],
+    "mosquitto": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "cpulimit": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "php": [
+        "shell",
+        "command",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "suid",
+        "sudo",
+        "capabilities",
+        "file-read",
+        "file-write"
+    ],
+    "less": [
+        "shell",
+        "file-read",
+        "file-write",
+        "sudo",
+        "suid"
+    ],
+    "mawk": [
+        "shell",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "dmsetup": [
+        "sudo",
+        "suid"
+    ],
+    "flock": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "fold": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ul": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "timeout": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "fish": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "pr": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "busybox": [
+        "shell",
+        "file-upload",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ed": [
+        "shell",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo",
+        "limited-suid"
+    ],
+    "bpftrace": [
+        "sudo"
+    ],
+    "diff": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ruby": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "sudo",
+        "capabilities"
+    ],
+    "jjs": [
+        "shell",
+        "reverse-shell",
+        "file-download",
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "git": [
+        "shell",
+        "file-read",
+        "sudo",
+        "limited-suid"
+    ],
+    "sftp": [
+        "shell",
+        "file-upload",
+        "file-download",
+        "sudo"
+    ],
+    "unshare": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "agetty": [
+        "suid"
+    ],
+    "vim": [
+        "shell",
+        "reverse-shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo",
+        "capabilities",
+        "limited-suid"
+    ],
+    "jtag": [
+        "shell",
+        "sudo"
+    ],
+    "cmp": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "neofetch": [
+        "shell",
+        "file-read",
+        "sudo"
+    ],
+    "gcloud": [
+        "shell",
+        "sudo"
+    ],
+    "bundle": [
+        "shell",
+        "sudo"
+    ],
+    "su": [
+        "sudo"
+    ],
+    "softlimit": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "xxd": [
+        "file-write",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "msfconsole": [
+        "shell",
+        "sudo"
+    ],
+    "sysctl": [
+        "command",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ftp": [
+        "shell",
+        "file-upload",
+        "file-download",
+        "sudo"
+    ],
+    "yash": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "dmidecode": [
+        "sudo"
+    ],
+    "ssh-keyscan": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "sshpass": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "whiptail": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "setarch": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "lftp": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "pdb": [
+        "shell",
+        "sudo"
+    ],
+    "bc": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "scrot": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "ksu": [
+        "sudo"
+    ],
+    "npm": [
+        "shell",
+        "sudo"
+    ],
+    "ssh": [
+        "shell",
+        "file-upload",
+        "file-download",
+        "file-read",
+        "sudo"
+    ],
+    "expand": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "certbot": [
+        "shell",
+        "sudo"
+    ],
+    "aspell": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "yum": [
+        "file-download",
+        "sudo"
+    ],
+    "msgattrib": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "nano": [
+        "shell",
+        "file-write",
+        "file-read",
+        "limited-suid",
+        "sudo"
+    ],
+    "perl": [
+        "shell",
+        "file-read",
+        "reverse-shell",
+        "suid",
+        "sudo",
+        "capabilities"
+    ],
+    "openvt": [
+        "sudo"
+    ],
+    "lwp-request": [
+        "file-read",
+        "sudo"
+    ],
+    "c99": [
+        "file-read",
+        "file-write",
+        "shell",
+        "sudo"
+    ],
+    "bconsole": [
+        "shell",
+        "sudo",
+        "file-read"
+    ],
+    "facter": [
+        "shell",
+        "sudo"
+    ],
+    "update-alternatives": [
+        "sudo",
+        "suid"
+    ],
+    "vimdiff": [
+        "shell",
+        "reverse-shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo",
+        "capabilities",
+        "limited-suid"
+    ],
+    "pg": [
+        "shell",
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "volatility": [
+        "shell"
+    ],
+    "view": [
+        "shell",
+        "reverse-shell",
+        "non-interactive-reverse-shell",
+        "non-interactive-bind-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo",
+        "capabilities",
+        "limited-suid"
+    ],
+    "atobm": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "dvips": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "node": [
+        "shell",
+        "file-write",
+        "file-read",
+        "file-download",
+        "file-upload",
+        "reverse-shell",
+        "bind-shell",
+        "suid",
+        "sudo",
+        "capabilities"
+    ],
+    "openvpn": [
+        "shell",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "alpine": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "vi": [
+        "shell",
+        "file-write",
+        "file-read",
+        "sudo"
+    ],
+    "mail": [
+        "shell",
+        "sudo"
+    ],
+    "ghci": [
+        "shell",
+        "sudo"
+    ],
+    "finger": [
+        "file-upload",
+        "file-download"
+    ],
+    "mount": [
+        "sudo"
+    ],
+    "cowthink": [
+        "shell",
+        "sudo"
+    ],
+    "start-stop-daemon": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "grep": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "w3m": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "highlight": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "gzip": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "hping3": [
+        "shell",
+        "suid",
+        "sudo"
+    ],
+    "python": [
+        "shell",
+        "reverse-shell",
+        "file-upload",
+        "file-download",
+        "file-write",
+        "file-read",
+        "library-load",
+        "suid",
+        "sudo",
+        "capabilities"
+    ],
+    "xmore": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "dig": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "chmod": [
+        "suid",
+        "sudo"
+    ],
+    "service": [
+        "shell",
+        "sudo"
+    ],
+    "redcarpet": [
+        "file-read",
+        "sudo"
+    ],
+    "zsoelim": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "xargs": [
+        "shell",
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "check_log": [
+        "file-read",
+        "file-write",
+        "sudo"
+    ],
+    "rev": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "as": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "ascii85": [
+        "file-read",
+        "sudo"
+    ],
+    "tee": [
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "posh": [
+        "shell",
+        "limited-suid",
+        "sudo"
+    ],
+    "dash": [
+        "shell",
+        "file-write",
+        "suid",
+        "sudo"
+    ],
+    "yelp": [
+        "file-read"
+    ],
+    "msgconv": [
+        "file-read",
+        "sudo",
+        "suid"
+    ],
+    "torsocks": [
+        "shell",
+        "sudo"
+    ],
+    "join": [
+        "file-read",
+        "suid",
+        "sudo"
+    ],
+    "xetex": [
+        "shell",
+        "sudo",
+        "limited-suid"
+    ],
+    "zsh": [
+        "file-read",
+        "file-write",
+        "shell",
+        "suid",
+        "sudo"
+    ]
+}
