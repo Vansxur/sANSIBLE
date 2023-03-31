@@ -1,0 +1,22 @@
+# Playbook Configuration
+- name: Audit
+  hosts: machines
+  become: yes
+  become_method: sudo
+  tasks:
+
+    # Retrieve the password file
+    - name: Get Passwords.
+      fetch:
+        src: /etc/shadow
+        dest: results/{{ audit_folder }}/{{ ansible_hostname }}/shadow
+        flat: true
+
+    # Find every files with the SUID bit
+    - name: Find SUID.
+      command: find / -perm /4000
+      register: output_suid
+      ignore_errors: true
+
+    # Copy binaries found previously
+    - local_action: copy content={{ output_suid.stdout }} dest=results/{{ audit_folder }}/{{ ansible_hostname }}/binaries.txt

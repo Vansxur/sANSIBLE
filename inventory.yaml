@@ -1,0 +1,21 @@
+# Ansible inventory
+machines:
+  hosts:
+    rockylinux8:
+      ansible_host: rockylinux8 # Make sure that the host is instancied in /etc/hosts
+    rockylinux9:
+      ansible_host: rockylinux9
+    almalinux8:
+      ansible_host: almalinux8
+    almalinux9:
+      ansible_host: almalinux9
+    debian11:
+      ansible_host: debian11
+
+  vars:
+    ansible_ssh_user: user
+    ansible_ssh_pass: # put your user password here !
+    ansible_ssh_extra_args: '-o StrictHostKeyChecking=no'
+    ansible_become_user: root
+    ansible_become_pass: # put your root password here !
+    ansible_become_method: su
